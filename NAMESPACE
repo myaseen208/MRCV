@@ -1,0 +1,26 @@
+export(genloglin, 
+       item.response.table,
+       marginal.table,
+       MI.stat,
+       MI.test)
+
+S3method(print, MMI)
+S3method(print, SPMI)
+S3method(print, genloglin)
+S3method(print, summary.genloglin)
+S3method(print, anova.genloglin)
+S3method(print, predict.genloglin)
+S3method(summary, genloglin)
+S3method(residuals, genloglin)
+S3method(anova, genloglin)
+S3method(predict, genloglin)
+
+
+
+import(tables)
+
+importFrom("graphics", "abline", "hist", "layout")
+importFrom("stats", "chisq.test", "coef", "glm", "model.matrix",
+ "naprint", "pchisq", "pnorm", "poisson", "printCoefmat",
+ "qnorm", "quantile", "rmultinom", "sd", "symnum")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")

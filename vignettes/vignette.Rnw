@@ -1,0 +1,6 @@
+\documentclass{article}
+\usepackage{pdfpages}
+%\VignetteIndexEntry{Koziol and Bilder (2014)}
+\begin{document}
+\includepdf[pages=-, fitpaper=true]{Koziol_Bilder_2014.pdf}
+\end{document}
