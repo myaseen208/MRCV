@@ -1,0 +1,88 @@
+url: https://myaseen208.com/MRCV/
+
+home:
+  title: MRCV
+  description: Methods for Analyzing Multiple Response Categorical Variables (MRCVs)
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: united
+    ganalytics: UA-116716530-2
+    docsearch:
+      api_key: bdafb7ea4490644e670f470ee3ef537f
+      index_name: MRCV
+
+toc:
+  depth: 3
+
+authors:
+  Natalie Koziol:
+    href: https://cyfs.unl.edu/personnel/bios/koziol-natalie.php
+  Chris Bilder:
+    href: https://www.chrisbilder.com/
+
+development:
+  mode: unreleased
+
+
+navbar:
+  title: MRCV
+  type: default
+  left:
+    - icon: fa-home fa-lg
+      text: Home
+      href: index.html
+    - icon: fa-code
+      text: Reference
+      href: reference/index.html
+    - icon: fa-file-o
+      text: Vignettes
+      menu:
+      - text: "Koziol and Bilder (2014)"
+        href: articles/Koziol_Bilder_2014.pdf
+    - icon: fa-newspaper-o
+      text: News
+      href: news/index.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/myaseen208/MRCV
+      icon: fa-github
+      aria-label: "GitHub repository"
+    - text: "ResearchGate"
+      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+      icon: fa-github
+      aria-label: "ResearchGate"
+    - text: "Twitter"
+      href: https://twitter.com/myaseen208
+      icon: "fab fa-twitter"
+      aria-label: "Twitter"
+
+
+reference:
+    - title: Core Functions
+      contents:
+         - '`anova.genloglin`'
+         - '`genloglin`'
+         - '`item.response.table`'
+         - '`marginal.table`'
+         - '`MRCV-package`'
+         - '`MI.test`'
+         - '`predict.genloglin`'
+         - '`print.anova.genloglin`'
+         - '`print.genloglin`'
+         - '`print.MMI`'
+         - '`print.predict.genloglin`'
+         - '`print.SPMI`'
+         - '`print.summary.genloglin`'
+         - '`residuals.genloglin`'
+         - '`summary.genloglin`'
+
+
+    - title: Data Sets
+      contents:
+         - '`farmer1`'
+         - '`farmer2`'
+         - '`farmer3`'
+         - '`sealion`'
+

@@ -1,5 +1,5 @@
 Package: MRCV
-Version: 0.4-0
+Version: 0.5-0
 Date: 2024-10-18
 Title: Methods for Analyzing Multiple Response Categorical Variables
         (MRCVs)
@@ -13,7 +13,8 @@ Authors@R: c(person(given = "Natalie",
 Maintainer: Chris Bilder <bilder@unl.edu>
 Depends: R (>= 4.4.0)
 Imports: tables
-Suggests: geepack
+Suggests: geepack, R.rsp
+VignetteBuilder: knitr, R.rsp
 LazyData: TRUE
 Description: Provides functions for analyzing the association between
     one single response categorical variable (SRCV) and one multiple response
@@ -35,3 +36,4 @@ Author: Natalie Koziol [aut],
 Repository: CRAN
 Date/Publication: 2024-10-22 14:00:02 UTC
 RoxygenNote: 7.3.2
+Encoding: UTF-8

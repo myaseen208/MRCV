@@ -1,0 +1,8 @@
+bibentry(
+  "manual",
+  header = "Please, support this project by citing it in your publications!",
+  title = "MRCV: Methods for Analyzing Multiple Response Categorical Variables (MRCVs)",
+	author = "Natalie Koziol, Chris Bilder",
+  year = 2013,
+  journal = "The Comprehensive R Archive Network (CRAN)",
+)

@@ -1,0 +1,74 @@
+---
+output: rmarkdown::github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "",
+  fig.path = "inst/extdata/"
+)
+```
+
+## `MRCV`: Methods for Analyzing Multiple Response Categorical Variables (MRCVs)
+
+
+###### Version : [`r getNamespaceVersion("MRCV")`](https://myaseen208.com/MRCV/); Copyright (C) 2013-2024: License: [GPL-3](https://www.r-project.org/Licenses/)
+
+
+##### *Natalie Koziol^1^, and Chris Bilder^2^*
+1. [Nebraska Center for Research on Children, Youth, Families and Schools (CYFS), University of Nebraska Lincoln, NE, USA](https://cyfs.unl.edu/personnel/bios/koziol-natalie.php)
+2. [Department of Statistics, University of Nebraska-Lincoln, Lincoln NE, USA](https://www.chrisbilder.com/)
+
+***
+
+[![minimal R version](https://img.shields.io/badge/R>%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version-last-release/MRCV)](https://cran.r-project.org/package=MRCV)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/MRCV?color=green)](https://CRAN.R-project.org/package=MRCV)
+<!-- [![packageversion](https://img.shields.io/badge/Package%20version-0.2.3.3-orange.svg)](https://github.com/myaseen208/MRCV) -->
+
+```{r, results='asis', echo=FALSE}
+dver <- ifelse(test = gsub("(.\\.)(\\d+)(\\..)", "", getNamespaceVersion("MRCV")) != "",
+               yes = getNamespaceVersion("MRCV"),
+               no = gsub("Version:\\s*", "", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/MRCV", "/master/DESCRIPTION"))[grep("Version:", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/MRCV", "/master/DESCRIPTION")))]))
+cat(paste("[![develVersion](https://img.shields.io/badge/devel%20version-", dver, "-orange.svg)](https://github.com/myaseen208/MRCV)", sep = ""))
+```
+
+<!-- [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/myaseen208/MRCV/total.svg)] -->
+[![Project Status: WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](https://github.com/myaseen208/MRCV)
+***
+
+## Description
+`r gsub("(<doi:)(.+)(>)", "[doi:\\2](https://doi.org/\\2)", gsub("\\n", " ", packageDescription("MRCV", fields = "Description")))`
+
+## Installation
+The package can be installed from CRAN as follows:
+
+```{r, eval=FALSE}
+install.packages("MRCV", dependencies = TRUE)
+```
+
+
+## What's new
+To know whats new in this version type:
+
+```{r, eval=FALSE}
+news(package = "MRCV")
+```
+
+## Links
+
+[CRAN page](https://cran.r-project.org/package=MRCV)
+
+
+
+## Citing `MRCV`
+To cite the package use:
+
+
+```{r, comment = ""}
+citation("MRCV")
+```
