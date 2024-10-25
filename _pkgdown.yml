@@ -1,4 +1,4 @@
-url: https://myaseen208.com/MRCV/
+url: https://chrisbilder.com/MRCV/
 
 home:
   title: MRCV
@@ -46,7 +46,7 @@ navbar:
       href: news/index.html
   right:
     - text: "GitHub"
-      href: https://github.com/myaseen208/MRCV
+      href: https://github.com/chrisbilder/MRCV
       icon: fa-github
       aria-label: "GitHub repository"
     - text: "ResearchGate"
@@ -54,7 +54,7 @@ navbar:
       icon: fa-github
       aria-label: "ResearchGate"
     - text: "Twitter"
-      href: https://twitter.com/myaseen208
+      href: https://twitter.com/chrisbilder
       icon: "fab fa-twitter"
       aria-label: "Twitter"
 
@@ -77,8 +77,6 @@ reference:
          - '`print.summary.genloglin`'
          - '`residuals.genloglin`'
          - '`summary.genloglin`'
-
-
     - title: Data Sets
       contents:
          - '`farmer1`'

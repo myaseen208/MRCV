@@ -3,19 +3,19 @@ Version: 0.5-0
 Date: 2024-10-18
 Title: Methods for Analyzing Multiple Response Categorical Variables
         (MRCVs)
-Authors@R: c(person(given = "Natalie",
-                      family = "Koziol",
-                      role = "aut"),
-               person(given = "Chris",
-                      family = "Bilder",
-                      role = c("aut", "cre"),
-                      email = "bilder@unl.edu"))
+Authors@R: c(person(given = "Natalie"
+                    , family = "Koziol"
+                    , role = c("aut")
+                    #, email = "nkoziol@unl.edu")
+                    #, comment = c(ORCID = "0000-0003-3275-1776")
+                      ),
+               person(given = "Chris"
+                    , family = "Bilder"
+                    , role = c("aut", "cre")
+                    , email = "bilder@unl.edu")
+                    #, comment = c(ORCID = "0000-0002-2848-8576")
+                    )
 Maintainer: Chris Bilder <bilder@unl.edu>
-Depends: R (>= 4.4.0)
-Imports: tables
-Suggests: geepack, R.rsp
-VignetteBuilder: knitr, R.rsp
-LazyData: TRUE
 Description: Provides functions for analyzing the association between
     one single response categorical variable (SRCV) and one multiple response
     categorical variable (MRCV), or between two or three MRCVs.  A modified Pearson
@@ -28,12 +28,15 @@ Description: Provides functions for analyzing the association between
     Bilder and Loughin (2004) <doi:10.1111/j.0006-341X.2004.00147.x>,
     Bilder and Loughin (2007) <doi:10.1080/03610920600974419>,
     and Koziol and Bilder (2014) <https://journal.r-project.org/articles/RJ-2014-014/>.
+Depends: R (>= 4.4.0)
 License: GPL (>= 3)
-NeedsCompilation: no
-Packaged: 2024-10-21 20:30:28 UTC; cbilder
-Author: Natalie Koziol [aut],
-  Chris Bilder [aut, cre]
-Repository: CRAN
-Date/Publication: 2024-10-22 14:00:02 UTC
+LazyData: TRUE
 RoxygenNote: 7.3.2
 Encoding: UTF-8
+URL: https://chrisbilder.com/MRCV/
+     https://CRAN.R-project.org/package=MRCV
+Imports: tables
+Suggests: geepack, knitr, R.rsp
+VignetteBuilder: knitr, R.rsp
+Packaged: 2024-10-21 20:30:28 UTC; cbilder
+Date/Publication: 2024-10-22 14:00:02 UTC

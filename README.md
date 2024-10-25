@@ -29,7 +29,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/MRCV?color=green)](http
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2024--10--23-yellowgreen.svg)](https://github.com/myaseen208/MRCV)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2024--10--24-yellowgreen.svg)](https://github.com/myaseen208/MRCV)
 \*\*\*
 
 ## Description
@@ -75,20 +75,23 @@ To cite the package use:
 
 ``` r
 citation("MRCV")
-To cite package 'MRCV' in publications use:
+Please, support this project by citing it in your publications!
 
-  Koziol N, Bilder C (2024). _MRCV: Methods for Analyzing Multiple
-  Response Categorical Variables (MRCVs)_. R package version 0.5-0,
-  <https://CRAN.R-project.org/package=MRCV>.
+  Koziol, A. N, Bilder, R. C (2014). _MRCV: Methods for
+  Analyzing Multiple Response Categorical Variables (MRCVs)_,
+  volume 6. https://rjournal.github.io/.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
-    title = {MRCV: Methods for Analyzing Multiple Response Categorical Variables
-(MRCVs)},
-    author = {Natalie Koziol and Chris Bilder},
-    year = {2024},
-    note = {R package version 0.5-0},
-    url = {https://CRAN.R-project.org/package=MRCV},
+    title = {MRCV: Methods for Analyzing Multiple Response Categorical Variables (MRCVs)},
+    author = {{Koziol} and Natalie A. and {Bilder} and Christopher R.},
+    journal = {The R Journal},
+    year = {2014},
+    note = {https://rjournal.github.io/},
+    volume = {6},
+    issue = {1},
+    issn = {2073-4859},
+    pages = {144-150},
   }
 ```
